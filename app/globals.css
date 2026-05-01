@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+cursor: pointer;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background);
