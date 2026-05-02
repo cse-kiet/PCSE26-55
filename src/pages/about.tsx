@@ -2,7 +2,7 @@ import { NextSeo } from "next-seo";
 
 import AboutHero from "@/components/about-hero";
 import ExperienceShowcaseList from "@/components/experience/experience-showcase-list";
-import { EXPERIENCE } from "@/data/experience";
+// import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
@@ -15,13 +15,13 @@ export default function About() {
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - Software Developer",
+          title: "Learn About Harsh Shrivastava - FullStack Developer",
           description:
-            "Dive into the story of Amit Chauhan, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Harsh Shrivastava, a FullStack Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Harsh Shrivastava - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -39,7 +39,7 @@ export default function About() {
         ]}
       />
       <AboutHero />
-      <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
+      {/* <ExperienceShowcaseList title="Experience" details={EXPERIENCE} /> */}
       <ExperienceShowcaseList title="Education" details={EDUCATION} />
     </>
   );
