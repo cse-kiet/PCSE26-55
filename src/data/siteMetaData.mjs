@@ -13,9 +13,9 @@ export const siteMetadata = {
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
   email: "amitchauhan263871@gmail.com",
-  github: "https://github.com/BUMBAIYA",
-  twitter: "https://twitter.com/amitcha2638",
-  linkedin: "https://www.linkedin.com/in/amitchauhan-dev",
+  github: "https://github.com/harsh7401",
+  twitter: "https://x.com/harshcse1075",
+  linkedin: "https://www.linkedin.com/in/harsh-shrivastava-59162a291/",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
