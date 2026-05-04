@@ -32,7 +32,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Axiom Hire",
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
@@ -69,7 +69,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://kannban-board.vercel.app",
   },
   {
-    name: "Many Games",
+    name: "Job Portal",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/manyGamesDark.webp",
