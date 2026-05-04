@@ -5,9 +5,9 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Divvy",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Next JS, Convex, Clerk, Tailwind, Inngest, Shadcn UI,Vercel"],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
       DARK: "/images/projects/jsontreeDark.webp",
@@ -15,15 +15,14 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Novus",
     href: "/projects",
     tags: [
-      "Reactjs",
+      "Next JS",
       "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
+      "Fabric.js",
+      "ImageKit",
+      "Shadcn UI",
       "Vercel",
     ],
     image: {
@@ -57,7 +56,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://divvy-omega.vercel.app/",
   },
   {
-    name: "Kanban app",
+    name: "Kanba app",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
