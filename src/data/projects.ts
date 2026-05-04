@@ -26,8 +26,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/novus.png",
+      DARK: "/images/projects/novus.png",
     },
   },
   {
@@ -36,8 +36,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/AxiomHire.png",
+      DARK: "/images/projects/AxiomHire.png",
     },
   },
 ];
