@@ -9,8 +9,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Next JS, Convex, Clerk, Tailwind, Inngest, Shadcn UI,Vercel"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/Divvy.png",
+      DARK: "/images/projects/Divvy.png",
     },
   },
   {
