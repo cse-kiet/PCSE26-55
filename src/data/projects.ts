@@ -46,14 +46,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Divvy",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    imageUrl: ["/images/projects/Divvy.png", "/images/projects/Divvy.png"],
     description:
       "Track shared expenses, split bills effortlessly, and settle up quickly. Never worry about who owes who again.",
     sourceCodeHref: "https://github.com/harsh7401/Divvy",
-    liveWebsiteHref: "https://divvy-omega.vercel.app/",
+    liveWebsiteHref: "divvy-omega.vercel.app",
   },
   {
     name: "Kanba app",
