@@ -45,7 +45,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Divvy",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/mainlogo1.webp",
     imageUrl: ["/images/projects/Divvy.png", "/images/projects/Divvy1.png"],
     description:
       "Track shared expenses, split bills effortlessly, and settle up quickly. Never worry about who owes who again.",
@@ -54,14 +54,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Novus",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/images/projects/logos/mainlogo1.webp",
     imageUrl: [
       "/images/projects/novus.png",
       "/images/projects/novus1.png",
       "/images/projects/novus2.png",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
+      "Harness the power of AI to perfect your photos. Our app offers a suite of advanced features, including resize, crop, seamless background replacement, and AI-powered enhancements to bring your images to life.",
     sourceCodeHref: "https://github.com/harsh7401/Novus",
     liveWebsiteHref: "novussss.vercel.app",
   },
@@ -70,13 +70,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/AxiomHire.png",
-      "/images/projects/AxiomHire.png",
-      "/images/projects/AxiomHire.png",
-      "/images/projects/AxiomHire.png",
-      "/images/projects/AxiomHire.png",
+      "/images/projects/axomhire1.png",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
+      "Axiom Hire presents opportunities for job seekers and employers to connect and grows",
     sourceCodeHref: "https://github.com/harsh7401/Job_Portal",
     liveWebsiteHref: "axiomhire.vercel.app",
   },
@@ -93,12 +90,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
+    name: "SpenWise",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/SW.png",
+      // "/images/projects/SW1.png",
+      "/images/projects/SW2.png",
+      "/images/projects/SW3.png",
+      "/images/projects/SW4.png",
+      "/images/projects/SW5.png",
     ],
     description:
       "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
