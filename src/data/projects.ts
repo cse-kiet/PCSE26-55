@@ -101,9 +101,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/SW5.png",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "An AI-powered financail management platform that helps you track,analyze, and optimize your spending with real-time insights.",
+    sourceCodeHref: "https://github.com/harsh7401/_SpendWise_",
+    liveWebsiteHref: "https://spend-wise-puce.vercel.app/",
   },
   {
     name: "Stock predictor",
